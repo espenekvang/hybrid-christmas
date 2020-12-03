@@ -355,3 +355,7 @@ MigrationBackup/
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+artifacts*
+build*
+Invoke-Build.*

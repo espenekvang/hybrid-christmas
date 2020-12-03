@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
-using Hybrid.Christmas.Api;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Hybrid.Christmas.Controllers
+namespace Hybrid.Christmas.Api.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
