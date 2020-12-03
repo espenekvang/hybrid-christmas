@@ -30,6 +30,8 @@ terraform apply -auto-approve
 ```
 A successful provisioning of this should give a resource group in Azure called `rg-hybrid-christmas` with a web app service `app-hybrid-christmas-api` holding the the simple api of this repository.
 
+**Important**: This terraform setup only uses a local backend, when using terraform in your team you should configure a terraform backend such as a Azure Storage or similiar: https://www.terraform.io/docs/backends/index.html
+
 ## Build
 To build the project:
 ```
