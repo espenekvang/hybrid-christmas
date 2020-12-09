@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hybrid.Christmas.Api", "Hybrid.Christmas.Api\Hybrid.Christmas.Api.csproj", "{02A8EDC5-F9CC-41C2-AF6B-E4BB84AEA68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.Christmas.Api", "Hybrid.Christmas.Api\Hybrid.Christmas.Api.csproj", "{02A8EDC5-F9CC-41C2-AF6B-E4BB84AEA68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "On.North.Pole.Elves.Api", "On.North.Pole.Elves.Api\On.North.Pole.Elves.Api.csproj", "{05EB0EE0-914E-4A26-BD41-40B04EEC8D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hybrid.Christmas.Types", "Hybrid.Christmas.Types\Hybrid.Christmas.Types.csproj", "{B67E1F47-9245-49EA-85B3-025AE43B4B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{1D3526CB-08E4-4F03-9202-44E9D33AD49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,20 @@ Global
 		{02A8EDC5-F9CC-41C2-AF6B-E4BB84AEA68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02A8EDC5-F9CC-41C2-AF6B-E4BB84AEA68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02A8EDC5-F9CC-41C2-AF6B-E4BB84AEA68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EB0EE0-914E-4A26-BD41-40B04EEC8D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EB0EE0-914E-4A26-BD41-40B04EEC8D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EB0EE0-914E-4A26-BD41-40B04EEC8D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EB0EE0-914E-4A26-BD41-40B04EEC8D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67E1F47-9245-49EA-85B3-025AE43B4B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67E1F47-9245-49EA-85B3-025AE43B4B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67E1F47-9245-49EA-85B3-025AE43B4B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67E1F47-9245-49EA-85B3-025AE43B4B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B67E1F47-9245-49EA-85B3-025AE43B4B13} = {1D3526CB-08E4-4F03-9202-44E9D33AD49A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4C465DD-8AE0-46CF-B308-F2CCC6DC987A}

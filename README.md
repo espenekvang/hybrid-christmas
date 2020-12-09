@@ -45,3 +45,11 @@ To deploy the application:
 ~\pipeline.ps1 Deploy
 ```
 This will build the project, create a zip of the application, and copy everything to the artifacts folder. Finally it will use Azure CLI to deploy the app to the resources created by Terraform.
+
+## Projects
+
+### Hybrid.Christmas.Api
+Simple dotnet core api illustrating an api to be deployed in azure.
+
+### On.North.Pole.Elves.Api
+Simple dotnet core api illustrating the elves api to be deployed on-north-pole.
