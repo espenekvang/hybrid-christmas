@@ -1,5 +1,5 @@
 # hybrid-christmas
-A simple project demonstrating how to set up a Azure Hybrid Connection(https://docs.microsoft.com/en-us/azure/app-service/app-service-hybrid-connections) between an Azure Web App Service and on-prem service.
+[Day 15](https://thecloud.christmas/2020/15) in [Bekk Christmas](https://bekk.christmas) advent calendar. This project demonstrates how to set up a Azure Hybrid Connection(https://docs.microsoft.com/en-us/azure/app-service/app-service-hybrid-connections) between an Azure Web App Service and on-prem service.
 
 ## Prerequisites
 - [Powershell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1)
